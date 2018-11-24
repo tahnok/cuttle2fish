@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
+LIBS:cuttle2fish-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -317,7 +318,7 @@ Connection ~ 1550 4700
 Wire Wire Line
 	1000 5100 1000 4400
 Wire Wire Line
-	1000 4400 2600 4400
+	900  4400 2600 4400
 Wire Wire Line
 	750  4300 750  5400
 Wire Wire Line
@@ -347,4 +348,84 @@ Wire Wire Line
 	1300 2300 1600 2300
 Text Label 1600 2300 0    60   ~ 0
 USB_DP
+$Comp
+L CONN_01X05 J?
+U 1 1 5BF8A16C
+P 2200 6400
+F 0 "J?" H 2278 6441 50  0000 L CNN
+F 1 "CONN_01X05" H 2278 6350 50  0000 L CNN
+F 2 "" H 2200 6400 50  0001 C CNN
+F 3 "" H 2200 6400 50  0001 C CNN
+	1    2200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6200 2000 6200
+Wire Wire Line
+	2000 6300 1600 6300
+Wire Wire Line
+	2000 6400 1600 6400
+Wire Wire Line
+	2000 6500 1600 6500
+Wire Wire Line
+	2000 6600 1600 6600
+Wire Wire Line
+	1600 6200 1600 6150
+Wire Wire Line
+	1600 6600 1600 6650
+$Comp
+L GND #PWR?
+U 1 1 5BF8A428
+P 1600 6650
+F 0 "#PWR?" H 1600 6400 50  0001 C CNN
+F 1 "GND" H 1605 6477 50  0000 C CNN
+F 2 "" H 1600 6650 50  0001 C CNN
+F 3 "" H 1600 6650 50  0001 C CNN
+	1    1600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5BF8A477
+P 1600 6150
+F 0 "#PWR?" H 1600 6000 50  0001 C CNN
+F 1 "+3V3" H 1615 6323 50  0000 C CNN
+F 2 "" H 1600 6150 50  0001 C CNN
+F 3 "" H 1600 6150 50  0001 C CNN
+	1    1600 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1000 4400
+Text Label 900  4400 0    60   ~ 0
+RESET
+Text Label 1600 6500 0    60   ~ 0
+RESET
+Text Label 1600 6400 0    60   ~ 0
+SWDIO
+Text Label 1600 6300 0    60   ~ 0
+SWCLK
+Wire Wire Line
+	9400 1200 9550 1200
+Wire Wire Line
+	9400 1300 9550 1300
+Wire Wire Line
+	9400 1500 9550 1500
+Wire Wire Line
+	9400 1600 9550 1600
+Wire Wire Line
+	9400 1400 9550 1400
+Text Label 9550 1200 0    60   ~ 0
+SPI1_SCK
+Text Label 9550 1300 0    60   ~ 0
+SPI1_MISO
+Text Label 9550 1400 0    60   ~ 0
+SPI1_MOSI
+Text Label 9550 1500 0    60   ~ 0
+USART1_TX
+Text Label 9550 1600 0    60   ~ 0
+USART1_RX
+Wire Wire Line
+	9400 1700 9550 1700
+Text Label 9550 1700 0    60   ~ 0
+BUTTON
 $EndSCHEMATC
