@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name stm321)(type Legacy)(uri ${KIPRJMOD}/stm32-kicad-lib/stm32.lib)(options "")(descr ""))
   (lib (name cuttle2fish-cache)(type Legacy)(uri ${KIPRJMOD}/cuttle2fish-cache.lib)(options "")(descr ""))
+  (lib (name test)(type Legacy)(uri ${KIPRJMOD}/test.lib)(options "")(descr ""))
 )
