@@ -1,4 +1,4 @@
-152768182540711
+154318557551666
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -21699,6 +21699,13 @@ APA102-2020
 0
 6
 6
+footprints
+usb-PCB
+
+
+0
+4
+4
 Fuse_Holders_and_Fuses
 BladeFuse-CarType
 

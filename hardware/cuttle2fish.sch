@@ -542,7 +542,7 @@ F 3 "" H 7450 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L test:APA102_2020 U3
+L symbols:APA102_2020 U3
 U 1 1 5BFAAB90
 P 9000 5850
 F 0 "U3" H 9075 5975 50  0000 C CNN
@@ -553,7 +553,7 @@ F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 9000 
 	1    0    0    -1  
 $EndComp
 $Comp
-L test:APA102_2020 U4
+L symbols:APA102_2020 U4
 U 1 1 5BFAB32A
 P 10000 5850
 F 0 "U4" H 10075 5975 50  0000 C CNN
@@ -849,7 +849,7 @@ LED
 Wire Wire Line
 	10600 3650 10600 4000
 $Comp
-L test:USB_PCB U5
+L symbols:USB_PCB U5
 U 1 1 5C104E8C
 P 1150 2050
 F 0 "U5" H 1083 2125 50  0000 C CNN
