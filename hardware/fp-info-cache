@@ -1,4 +1,4 @@
-154318557551666
+157440247813890
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -21699,6 +21699,20 @@ APA102-2020
 0
 6
 6
+footprints
+outline
+Imported from cuttlefist2.svg
+svg2mod
+0
+0
+0
+footprints
+Pin_Header_Straight_1x05_Pitch2.54mm
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
 footprints
 usb-PCB
 

@@ -281,7 +281,7 @@ U 1 1 5BF8A16C
 P 1800 6150
 F 0 "J2" H 1878 6191 50  0000 L CNN
 F 1 "CONN_01X05" H 1878 6100 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 1800 6150 50  0001 C CNN
+F 2 "footprints:Pin_Header_Straight_1x05_Pitch2.54mm" H 1800 6150 50  0001 C CNN
 F 3 "" H 1800 6150 50  0001 C CNN
 	1    1800 6150
 	1    0    0    -1  
@@ -631,7 +631,7 @@ U 1 1 5BFC4B1E
 P 1850 7150
 F 0 "J3" H 1878 7176 50  0000 L CNN
 F 1 "CONN_01x05" H 1878 7085 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 1850 7150 50  0001 C CNN
+F 2 "footprints:Pin_Header_Straight_1x05_Pitch2.54mm" H 1850 7150 50  0001 C CNN
 F 3 "~" H 1850 7150 50  0001 C CNN
 	1    1850 7150
 	1    0    0    -1  
