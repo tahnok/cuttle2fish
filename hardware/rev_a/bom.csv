@@ -1,0 +1,13 @@
+Reference,Quantity,Value,Footprint,
+C11 C10,2,4.7pF,SMD 0603,https://www.digikey.ca/product-detail/en/CL10C4R7BB8NNNC/1276-1792-1-ND/3889878/?itemSeq=278517564
+C6 C5 C4 C3 C2 C1,6,100nF,SMD 0603,https://www.digikey.ca/product-detail/en/CC0603KRX7R7BB104/311-1088-1-ND/302998/?itemSeq=278517701
+C8,1,10nF,SMD 0603,https://www.digikey.ca/product-detail/en/CL10B103KB8NCNC/1276-1921-1-ND/3890007/?itemSeq=278517735
+C9 C7,2,4.7uF,SMD 0603,https://www.digikey.ca/product-detail/en/CL10A475MP5LNNC/1276-6684-1-ND/5961543/?itemSeq=278517785
+D1 D2,2,LED,SMD 0603,https://www.digikey.ca/product-detail/en/SML-D12U1WT86/SML-D12U1WT86CT-ND/5843858/?itemSeq=278517839
+R1,1,10K,SMD 0603,https://www.digikey.ca/product-detail/en/ESR03EZPF1002/RHM10KADCT-ND/1983753/?itemSeq=278517879
+R2 R3,2,330,SMD 0603,https://www.digikey.ca/product-detail/en/ESR03EZPJ331/RHM330DCT-ND/1762933/?itemSeq=278517891
+SW1,1,B3U-1000P,B3U-1000P,https://www.digikey.ca/product-detail/en/B3U-1000P/SW1020CT-ND/1534357/?itemSeq=278517290
+U1,1,LP2985-3.3,SMD SOT-23-5,https://www.digikey.ca/product-detail/en/LP2985-33DBVR/296-18476-1-ND/809911/?itemSeq=278517279
+U2,1,STM32F103R(8-B)Tx,LQFP 64 10x10mm Pitch0.5mm,https://www.digikey.ca/product-detail/en/STM32F103RBT7/497-11526-ND/2035337/?itemSeq=278517258
+U3 U4,2,APA102-2020,APA102-2020,https://www.aliexpress.com/item/-/32856952551.html
+Y1,1,10pF,SMD 5032,https://www.digikey.ca/product-detail/en/ECS-80-10-30B-CWN-TR/XC2708CT-ND/8023643/?itemSeq=278517568
